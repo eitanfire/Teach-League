@@ -2,10 +2,20 @@
   text-align: center;
 }
 
-/* #logo {
-
+#logo {
+  width: 50%;
+  height: 3rem;
+  position: relative;
+  /* margin-bottom: 5rem; */
+  border: 5px solid rgb(32, 159, 201);
+  /* height: 10rem; */
+  /* background: radial-gradient(circle,
+  #00FF7F	 25%,
+  rgb(255, 255, 255) 100%);
+  z-index: 15;
+  opacity: 40%; */
 }
 
 #banner {
 
-} */
+}

@@ -1,5 +1,5 @@
 import './App.css';
-// import { Container, Col, Row } from 'reactstrap';
+import { Container, Col, Row } from 'reactstrap';
 import Header from './components/Header';
 import React from 'react';
 
@@ -7,14 +7,12 @@ import React from 'react';
 function App() {
   return (
     <div className="App">
-  {/* <Container> */}
-    {/* <Header 
-    // className='col col-12' 
-    /> */}
-      <h3>
+  <Container>
+    <Header className='col col-12' />
+      {/* <h1>
         Hello World!
-      </h3>
-  {/* </Container> */}
+      </h1> */}
+  </Container>
   </div>
   );
 }

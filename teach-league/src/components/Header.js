@@ -8,20 +8,18 @@ import TLlogo from '../app/img/teachLeagueLogo.png';
 const Header = () => {
     return(
     <div className='App' id ='Header'>
-            <Link to='/'>
+            {/* <Link to='/'> */}
             <Container>
                 <Row >
-                <Col className="col col-md-4 float-start">
-                    <img id='logo' src={ logo } alt='logo' />
-                    { TLlogo }
-                </Col >
-                <Col id='banner'>
-
-                </Col>
-        
+                    <Col className="col col-md-4 float-start">
+                    {/* <img id='logo' src={ logo } alt='logo' /> */}
+                    <img id='logo' src={ TLlogo } alt='logo' />
+                    </Col >
+                    <Col id='banner'>
+                    </Col>
                 </Row>
             </Container>
-            </Link>
+            {/* </Link> */}
     </div>
     );
 }
