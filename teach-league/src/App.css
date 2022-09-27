@@ -2,30 +2,30 @@
   text-align: center;
 }
 
+h2 {
+  text-align: left;
+}
+
 #teacherLeagueLogo {
   width: 25rem;
-  height: 3rem;
-  position: static;
-  /* top:10rem; */
+  height: 4rem;
+  position: absolute;
   left:0rem;
-  /* margin-bottom: 5rem; */
-  border: 5px solid rgb(32, 159, 201);
-  /* height: 10rem; */
-  /* background: radial-gradient(circle,
-  #00FF7F	 25%,
-  rgb(255, 255, 255) 100%);
-  z-index: 15;
-  opacity: 40%; */
+  border: 5px solid lightblue;
 }
 
 #banner {
-  height: 4rem;
+  height: 4.6rem;
   background: radial-gradient(circle,
-  black	 50%,
-  yellow   67%,
-  rgb(235, 110, 8) 100%);
-  z-index: 15;
-  opacity: 80%; 
+  yellow	 50%,
+  white   80%,
+  red 33%);
+  z-index: 25;
+  opacity: 70%; 
+  background-image: url(https://c8.alamy.com/comp/PWA4DJ/seamless-square-grid-graph-paper-pattern-in-blue-PWA4DJ.jpg);
+  border: 5px solid lightblue;
+  background-size: 30rem;
+
 }
 
 /* #footer {
