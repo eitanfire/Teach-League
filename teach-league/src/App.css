@@ -2,10 +2,12 @@
   text-align: center;
 }
 
-#logo {
-  width: 50%;
+#teacherLeagueLogo {
+  width: 25rem;
   height: 3rem;
-  position: relative;
+  position: static;
+  /* top:10rem; */
+  left:0rem;
   /* margin-bottom: 5rem; */
   border: 5px solid rgb(32, 159, 201);
   /* height: 10rem; */
@@ -17,5 +19,11 @@
 }
 
 #banner {
-
+  height: 4rem;
+  background: radial-gradient(circle,
+  black	 50%,
+  yellow   67%,
+  rgb(235, 110, 8) 100%);
+  z-index: 15;
+  opacity: 80%; 
 }

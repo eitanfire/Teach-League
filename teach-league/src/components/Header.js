@@ -10,12 +10,12 @@ const Header = () => {
     <div className='App' id ='Header'>
             {/* <Link to='/'> */}
             <Container>
-                <Row >
+                <Row id='banner'>
                     <Col className="col col-md-4 float-start">
                     {/* <img id='logo' src={ logo } alt='logo' /> */}
-                    <img id='logo' src={ TLlogo } alt='logo' />
+                    <img id='teacherLeagueLogo' src={ TLlogo } alt='Teacher League logo' />
                     </Col >
-                    <Col id='banner'>
+                    <Col className="col col-md-4 float-start d-block">
                     </Col>
                 </Row>
             </Container>
