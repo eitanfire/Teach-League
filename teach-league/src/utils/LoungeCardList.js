@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import { Card, CardBody, CardTitle } from 'reactstrap';
+import LoungeCard from './LoungeCard';
 
 const LoungeCardList = ({ icon, title, content, image }) => {
   const [isActive, setIsActive] = useState(false);
   return (
     <div className="lounge-card-item">
+        <LoungeCard />
       <div className="lounge-card-title" onClick={() => setIsActive(!isActive)}>
       <CardTitle>{icon}{title}{image}
       <span className='d-none d-md-block d-xxl-none' id='openCloseSymbols' style={{ color: 'red' }}>{isActive ? ' 🪐' : ' 🚀'}</span>
