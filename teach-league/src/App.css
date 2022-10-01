@@ -28,6 +28,18 @@ h2 {
 
 }
 
+#lounge-subtitle {
+  color: rgb(208, 44, 156);
+}
+
+.lounge-card-item {
+  background-color: blue;
+}
+
+.lounge-card-title {
+  color: white;
+  background-color: rgb(125, 14, 119);
+}
 /* #footer {
 
 } */
