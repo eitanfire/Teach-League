@@ -9,15 +9,15 @@ import { CardImg, CardText } from 'reactstrap';
 
 export const loungeData = [
   {
-    icon: <span className='icons'>📽</span>,
-    title: <span ><span id='icon'>📽</span> Secret Teacher</span>,
-    image: <img 
+    // icon: <span className='icons'>📽</span>,
+    title: <span >Secret Teacher</span>,
+    image: <img
     // className="classImage mx-auto d-none d-xxl-block" 
     src={SecretTeacher} alt='The Secret Teacher' />,
     content:
       < >
       {/* <CardImg src="https://ichef.bbci.co.uk/images/ic/640xn/p08vy7s8.jpg"></CardImg> */}
-                 <CardText>The Secret Teacher is an anonymous blog from <span style={{fontStyle: 'italic'}}>The Guardian</span> where teachers can tell it like it is.</CardText>
+                 The Secret Teacher is an anonymous blog from <span style={{fontStyle: 'italic'}}>The Guardian</span> where teachers can tell it like it is.
  <div className='col-8'>
           <a
             role='button'

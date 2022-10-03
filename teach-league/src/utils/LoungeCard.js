@@ -6,12 +6,14 @@ import '../features/SecretTeacher';
       return (
         <div className="lounge-card-item">
           <div className="lounge-card-title">
-          <CardTitle>{icon}{title}{image}
-          </CardTitle>
+          <CardTitle>{icon}{title}</CardTitle>
           </div>
-          <Card>
+          <Card >
           <CardBody className="lounge-card-content-theme">
-         <div className="lounge-card-content" >{content}
+          <CardImg> 
+            {image} 
+            </CardImg>
+          <div className="lounge-card-content" >{content}
           </div>
           </CardBody>
           </Card>

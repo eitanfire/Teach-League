@@ -34,14 +34,52 @@ h2 {
 }
 
 .lounge-card-item {
-  background-color: blue;
+  background-color: offwhite;
   color: rgb(131, 188, 40);
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px #ccc;
+  margin: 12px 0px;
+  display: inline-block;
+  width: 50%;
+  /* height: 50%; */
 }
 
 .lounge-card-title {
   color: white;
   background-color: rgb(125, 14, 119);
-}
-/* #footer {
+  /* font-weight: 500; */
+  font-size: 1.25rem;
+  font-family: Avenir-Heavy;
+  /* font-size: 20; */
+  font-weight: 600;
+  margin: 12px 0px 0px 0px;
 
-} */
+}
+
+.lounge-card-content-theme {
+  text-align: left;
+}
+#Footer {
+  background-image: linear-gradient(#cec8ff, white);
+  padding: 20px 0;
+  margin-top: 2rem;
+}
+
+.lounge-card-content {
+  padding: 4px 16px 20px 16px;
+
+}
+
+.lounge-card-image {
+  background-color: lightGray;
+  /* height:fit-content; */
+  width:fit-content;
+  max-height: 140px;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 1000%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
