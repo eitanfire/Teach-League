@@ -9,7 +9,8 @@ h2 {
 
 #teacherLeagueLogo {
   width: 25rem;
-  height: 4rem;
+  height: 4.75rem;
+  margin-top: -.5rem;
   position: absolute;
   left:0rem;
   border: 5px solid rgb(13, 20, 23);
@@ -17,10 +18,10 @@ h2 {
 
 #banner {
   height: 4.6rem;
-  background: radial-gradient(circle,
+  /* background: radial-gradient(circle,
   yellow	 50%,
   white   80%,
-  red 33%);
+  red 33%); */
   z-index: 25;
   opacity: 70%; 
   background-image: url(https://c8.alamy.com/comp/PWA4DJ/seamless-square-grid-graph-paper-pattern-in-blue-PWA4DJ.jpg);
@@ -35,7 +36,7 @@ h2 {
 
 .lounge-card-item {
   background-color: offwhite;
-  color: rgb(131, 188, 40);
+  color: rgb(18, 67, 101);
   border-radius: 8px;
   box-shadow: 0px 0px 8px #ccc;
   margin: 12px 0px;
