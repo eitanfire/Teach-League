@@ -13,7 +13,8 @@ h2 {
   margin-top: -.5rem;
   position: absolute;
   left:0rem;
-  border: 5px solid rgb(13, 20, 23);
+  border: 5px solid #6699CC;
+  opacity: .75;
 }
 
 #banner {
@@ -25,7 +26,7 @@ h2 {
   z-index: 25;
   opacity: 70%; 
   background-image: url(https://c8.alamy.com/comp/PWA4DJ/seamless-square-grid-graph-paper-pattern-in-blue-PWA4DJ.jpg);
-  border: 5px solid lightblue;
+  border: 5px solid #6699CC;
   background-size: 30rem;
 
 }
@@ -72,7 +73,7 @@ h2 {
 }
 
 .lounge-card-image {
-  background-color: lightGray;
+  /* background-color: lightGray; */
   /* height:fit-content; */
   width:fit-content;
   max-height: 140px;
@@ -83,4 +84,49 @@ h2 {
   margin-right: auto;
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+/* CSS */
+.btn {
+  text-align: center;
+  background-color: #FFFFFF;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #222222;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 13px 23px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+}
+
+.btn:focus-visible {
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow .2s;
+}
+
+.btn:active {
+  background-color: #F7F7F7;
+  border-color: #000000;
+  transform: scale(.96);
+}
+
+.btn:disabled {
+  border-color: #DDDDDD;
+  color: #DDDDDD;
+  cursor: not-allowed;
+  opacity: 1;
 }

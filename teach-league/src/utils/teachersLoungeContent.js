@@ -21,7 +21,7 @@ export const loungeData = [
  <div className='col-8'>
           <a
             role='button'
-            className='btn btn-dark'
+            className='btn'
             href='https://www.theguardian.com/profile/the-secret-teacher' target="_blank" rel="noopener noreferrer">
             Read More
           </a>
