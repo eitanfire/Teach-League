@@ -33,6 +33,8 @@ h2 {
 
 #lounge-subtitle {
   color: rgb(208, 44, 156);
+  padding-left: 2.5rem;
+  /* font-family: comfortaa; */
 }
 
 .lounge-card-item {
