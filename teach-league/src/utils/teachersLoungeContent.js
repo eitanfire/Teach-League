@@ -18,7 +18,7 @@ export const loungeData = [
       < >
       {/* <CardImg src="https://ichef.bbci.co.uk/images/ic/640xn/p08vy7s8.jpg"></CardImg> */}
                  The Secret Teacher is an anonymous blog from <span style={{fontStyle: 'italic'}}>The Guardian</span> where teachers can tell it like it is.
- <div className='col-8'>
+ <div className='btnStyle col-8'>
           <a
             role='button'
             className='btn'

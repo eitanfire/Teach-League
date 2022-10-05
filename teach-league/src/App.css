@@ -42,20 +42,19 @@ h2 {
   box-shadow: 0px 0px 8px #ccc;
   margin: 12px 0px;
   display: inline-block;
-  width: 50%;
+  width: 15rem;
   /* height: 50%; */
 }
 
 .lounge-card-title {
   color: white;
   background-color: rgb(125, 14, 119);
-  /* font-weight: 500; */
   font-size: 1.25rem;
   font-family: Avenir-Heavy;
-  /* font-size: 20; */
+  font-size: 2rem;
   font-weight: 600;
   margin: 12px 0px 0px 0px;
-
+  height: 3rem;
 }
 
 .lounge-card-content-theme {
@@ -68,7 +67,8 @@ h2 {
 }
 
 .lounge-card-content {
-  padding: 4px 16px 20px 16px;
+  /* padding: 4px 16px 30px 16px; */
+  padding: .75rem;
 
 }
 
@@ -86,9 +86,11 @@ h2 {
   margin-bottom: 1rem;
 }
 
-/* CSS */
-.btn {
+.btnStyle {
   text-align: center;
+  margin-top: 1rem;
+}
+.btn {
   background-color: #FFFFFF;
   border: 1px solid #222222;
   border-radius: 8px;
